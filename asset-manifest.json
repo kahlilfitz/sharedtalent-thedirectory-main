@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sharedtalent-thedirectory-main/static/css/main.895ddf55.css",
+    "main.js": "/sharedtalent-thedirectory-main/static/js/main.6c290cee.js",
+    "static/js/787.bad0194b.chunk.js": "/sharedtalent-thedirectory-main/static/js/787.bad0194b.chunk.js",
+    "index.html": "/sharedtalent-thedirectory-main/index.html",
+    "main.895ddf55.css.map": "/sharedtalent-thedirectory-main/static/css/main.895ddf55.css.map",
+    "main.6c290cee.js.map": "/sharedtalent-thedirectory-main/static/js/main.6c290cee.js.map",
+    "787.bad0194b.chunk.js.map": "/sharedtalent-thedirectory-main/static/js/787.bad0194b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.895ddf55.css",
+    "static/js/main.6c290cee.js"
+  ]
+}
