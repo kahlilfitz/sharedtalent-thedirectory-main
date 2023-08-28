@@ -1,0 +1,65 @@
+[hidden] {
+  display: none !important;
+}
+
+html, body { 
+    textarea, input, select {
+        transition: all .8ms ease;
+    }
+}
+
+
+html, body, h1,h2,h3,h4,h5,h6 { 
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.register-form {
+    margin-bottom: 5em;
+    .chakra-form__label {
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+}
+
+.profile-fields {
+  margin-bottom: 5em;
+  .chakra-form__label {
+      font-weight: bold;
+      margin: 1.5em 0 0.5em;
+  }
+}
+
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+    height: 125px;
+  }
+  .embla__slide {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex: 0 0 100%;
+    min-width: 0;
+    max-width: 300px;
+    height: 120px;
+  }
+  
+  ul.services-list, ul.languages-list {
+    font-size: 12px;
+    margin-left: 2em;
+    li {
+      padding: 0;
+    }
+  }
+
+  .search-controls {
+    width: 100%;
+    div:has(input[role=combobox]):not(.flexWrapper) {
+      width: 100% !important;
+      margin-top: 5px;
+      max-width: 450px !important;
+    }
+  }
