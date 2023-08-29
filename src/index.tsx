@@ -4,7 +4,7 @@ import reportWebVitals from "./reportWebVitals";
 import variables from "styles/variables.module.scss";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import chakraTheme from "@chakra-ui/theme";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { routes as appRoutes } from "./routes";
 import { AuthProvider } from "context/AuthProvider";
 import RequireAuth from "components/RequireAuth";
